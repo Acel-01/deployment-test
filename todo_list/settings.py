@@ -123,6 +123,10 @@ USE_TZ = True
 
 LOGIN_URL = 'login'
 
+import django_heroku
+django_heroku.settings(locals())
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
